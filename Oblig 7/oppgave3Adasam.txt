@@ -1,0 +1,14 @@
+b) I klassen Spilleliste er det en instansvariabel som lagrer alle sangene i en liste.
+Nevn minst en, helst to årsaker til at det er naturlig å velge en liste fremfor en ordbok her.
+	Det er mer naturlig å velge en liste til instansvariabelen siden i metoden lesFraFil
+    legger programmet til flere objekter i listen, ikke tittel og artist hver for seg.
+    Siden den legger til et objekt er det vanskelig og dele objektet opp til en
+    nøkkelverdi og en innholds verdi. Dermed blir det mer naturlig å lage en liste.
+
+c) Klassen Spilleliste kunne hatt filnavn som parameter til konstruktøren, og lest
+inn spillelisten ved opprettelsen av et nytt Spilleliste-objekt. Ser du noen fordel
+ved ikke å gjøre det i konstruktøren?
+	Ved å ikke lese inn spillelisten ved opprettelsen av et nytt spilleliste objekt
+    kan du eventuelt lette til andre lister fra filer senere uten å måtte legge filene
+    sammen også opprette et nytt objekt. Da kan du heller kalle på metoden som leser
+    fra fil to ganger med to forskjellige filer.
